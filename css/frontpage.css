@@ -3,7 +3,7 @@ body {
     
     }
 .menubox1, .menubox2, .menubox3, .menubox4{
-    padding:30px;
+    padding:25px;
     background-color: rgb(49, 49, 49);
     color: white;
     font-weight:bolder;
@@ -12,12 +12,60 @@ body {
     width:480px;
     text-align: center;
 }
-.menubox1:hover, .menubox2:hover, .menubox3:hover, .menubox4:hover {
+.menubox1:hover, .menubox2:hover, .menubox3:hover, menubox4:hover {
 	background: rgba(0,0,0,0);
 	color: #ffffff;
     box-shadow: inset 0 0 0 3px #151616;
 }
-.headerbox{
-    padding:30px;
-    background-image:url(pictures/Mal_De_Wear.jpg);
-}
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: rgb(49, 49, 49);
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 400px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    }
+    .h-100{
+        float:right;
+    }
+    
+    .maincontainer{
+        width: 1600px;
+        height:auto;
+        float:left;
+    }
