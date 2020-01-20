@@ -9,10 +9,10 @@ body {
     font-weight:bolder;
     font-size:20px;
     float:left;
-    width:480px;
+    width:25%;
     text-align: center;
 }
-.menubox1:hover, .menubox2:hover, .menubox3:hover, menubox4:hover {
+.menubox1:hover, .menubox2:hover, .menubox3:hover, .menubox4:hover {
 	background: rgba(0,0,0,0);
 	color: #ffffff;
     box-shadow: inset 0 0 0 3px #151616;
@@ -63,82 +63,31 @@ body {
     .h-100{
         float:right;
     }
+    .paalogo{
+        float:left;
+    }
     
-    .maincontainer{
-        width: 1600px;
+    .jumbotron{
+        width: 100%;
+        height:auto;
+        float:left;
+        background-color: black;
+        background-image: url(https://live.staticflickr.com/1779/42263456220_a2d79e5b49_b.jpg);
+        background-size: cover;
+    }
+    .sm-12{
+        padding:25px;
+        background-color: rgb(49, 49, 49);
+        color: white;
+        font-weight:bolder;
+        font-size:20px;
+        float:center;
+        width:1600px;
+        text-align: center;
+    }
+    .secondary{
+        width: 100%;
         height:auto;
         float:left;
     }
-    .container{
-    padding:25px;
-    background-color: rgb(49, 49, 49);
-    color: white;
-    font-weight:bolder;
-    font-size:20px;
-    float:left;
-    width:1600px;
-    height:400px;
-    text-align: center;
-    }
-    .slider{
-        display: block;
-        width:100%;
-        height:100%;
-        background-color: black;
-        overflow: hidden;
-        position: absolute;
-    }
-    .slider > *{
-        position: absolute;
-        display: block;
-        width:100%;
-        height:100%;
-        background-color: black;
-        animation:slide 12s infinite ;
-        overflow: hidden;
-    }
-    slide:nth-child(1){
-        left:0%;
-        animation-delay: -1s;
-        background-image: url(https://storage.needpix.com/rsynced_images/graffiti-1545455_1280.jpg);
-        background-size: cover;
-        background-position: center;
-    }
-    slide:nth-child(2){
-        left:0%;
-        animation-delay: 2s;
-        background-image: url(https://p0.piqsels.com/preview/498/484/860/pollachi-india-green-nature.jpg);
-        background-size: cover;
-        background-position: center;
-    }
-    slide:nth-child(3){
-        left:0%;
-        animation-delay: 5s;
-        background-image: url();
-        background-size: cover;
-        background-position: center;
-    }
-    slide:nth-child(4){
-        left:0%;
-        animation-delay: 8s;
-        background-image: url();
-        background-size: cover;
-        background-position: center;
-    }
-    slide p{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 50px;
-        text-align: center;
-        display: inline-block;
-        width:100%;
-        margin-top: 340px;
-        color: cornsilk;
-    }
-    @keyframes slide{
-        0% {left:100%; width:100%}
-        5% {left:0%;}
-        25% {left:0%;}
-        30% {left:-100%; width:100%}
-        30.0001% {left:-100%; width:0%}
-        100% {left:100%;}
-    }
+    
