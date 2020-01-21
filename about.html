@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/frontpage.css">
     <link rel="stylesheet" href="css/mensclothes.css">
-    <link rel="stylesheet" href="css/shoppingcart.css">
-    <script src="cart.js"></script>
+    <link rel="stylesheet" href="css/about.css">
     
 </head>
 <body>
@@ -17,15 +16,6 @@
           <div class="Container text-center">
               
             <a href="frontpage.html"><img src="pictures/Mal_De_Wear.jpg"class="paalogo"></a> 
-            <div class="container h-100">
-               <div class="d-flex justify-content-center h-100">
-                  <div class="searchbar">
-                     <input class="search_input" type="text" name="" placeholder="Search...">
-                     <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
-                  </div>
-               </div>
-               </div>
-            </body>
          </div>    
        </div>
     
@@ -54,3 +44,37 @@
           </ul>
         </div>
       </nav>
+      
+      <h1>About us</h1>
+
+      <br>
+      <br>
+
+      <div class="container">
+        <form action="action_page.php">
+          <h1>Contact us</h1>
+          <label for="fname">First Name</label>
+          <br>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <br>
+          <label for="lname">Last Name</label>
+          <br>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="finland">Finland</option>
+          </select>
+          <br>
+          <label for="subject">Subject</label>
+          <br>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="width: 1060px";></textarea>
+          <br>
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+    </body>
+</html>
