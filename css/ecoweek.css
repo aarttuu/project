@@ -1,9 +1,12 @@
 body {
     background-color: black;
     
+    
 }
 .navbar{
     background-color: transparent !important; 
+    width:100%;
+    float:left;
 }
 .navbar .navbar-brand{
     color: white;
@@ -94,11 +97,7 @@ body {
         background-image: url(https://live.staticflickr.com/1779/42263456220_a2d79e5b49_b.jpg);
         background-size: cover;
     }
-    .sm-12{
-        float:left;
-        width:100%;
-        padding:10px;
-    }
+    
     
     
       .slidershow{
@@ -132,3 +131,40 @@ body {
       .bar:hover{
         background: #fff;
       }
+      
+    
+    .column{
+        float:left;
+        padding:20px;
+        margin:20px;
+        width:100%;
+        height:1500px;
+        background-image: url(https://images.pexels.com/photos/2305169/pexels-photo-2305169.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+        background-position: center;
+        
+    
+    }
+    .textbox{
+        margin:10px;
+        padding:20px;
+        float:left;
+        background-color: black;
+        width:45%;
+        height:350px;
+        opacity:0.8;
+        color: white;
+        font-size:50px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: left;
+    }
+    .videobox{
+        margin:10px;
+        padding:20px;
+        float:left;
+        width:45%;
+        height:650px;
+        
+        
+    }
+    
