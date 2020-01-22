@@ -18,6 +18,12 @@ body {
 .fas{
   color:white;
 }
+.fa-shopping-cart{
+  color:rgb(0, 0, 0);
+  margin:50px;
+  float:left;
+  align-content: center;
+}
 .navbar .nav-item a{
     color:white !important;
     font-size: 25px;
@@ -100,6 +106,7 @@ body {
         height: 800px;
         overflow: hidden;
         margin-top: 10px;
+        margin-bottom: 20px;
       }
       .middle{
         position: absolute;
@@ -160,5 +167,15 @@ body {
       }
       #r5:checked ~ .s1{
         margin-left: -80%;
+      }
+      .sm-6{
+        float:left;
+        width:100%;
+        padding:60px;
+        background-color: darkcyan;
+      }
+      .row{
+        width:100%;
+        float:left;
       }
       
