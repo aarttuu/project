@@ -1,0 +1,134 @@
+body {
+    background-color: black;
+    
+}
+.navbar{
+    background-color: transparent !important; 
+}
+.navbar .navbar-brand{
+    color: white;
+    font-weight: bold;
+    font-size:25px;
+    float: left;
+
+}
+.navbar .navbar-nav{
+    margin: 0 auto;
+}
+.fas{
+  color:white;
+}
+.fa-shopping-cart{
+  color:rgb(0, 0, 0);
+  margin:50px;
+  float:left;
+  align-content: center;
+}
+.navbar .nav-item a{
+    color:white !important;
+    font-size: 25px;
+    margin-left:200px;
+    font-weight: bold;
+}
+.navbar .nav-item a:hover{
+    background: rgba(0,0,0,0);
+	color: #1c1c1d;
+	box-shadow: inset 0 0 0 3px #c6c9c9;
+}
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: rgb(49, 49, 49);
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 400px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #206660;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    }
+    .h-100{
+        float:right;
+    }
+    .paalogo{
+        float:left;
+    }
+    
+    .jumbotron{
+        width: 100%;
+        height:auto;
+        float:left;
+        background-color: black;
+        background-image: url(https://live.staticflickr.com/1779/42263456220_a2d79e5b49_b.jpg);
+        background-size: cover;
+    }
+    .sm-12{
+        float:left;
+        width:100%;
+        padding:10px;
+    }
+    
+    
+      .slidershow{
+        width: 1850px;
+        height: 800px;
+        overflow: hidden;
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+      .middle{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%);
+      }
+      .navigation{
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+      }
+      .bar{
+        width: 50px;
+        height: 10px;
+        border: 2px solid #fff;
+        margin: 6px;
+        cursor: pointer;
+        transition: 0.4s;
+      }
+      .bar:hover{
+        background: #fff;
+      }
