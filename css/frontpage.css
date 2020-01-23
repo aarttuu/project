@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    flex-wrap: wrap;
     
 }
 .navbar{
@@ -94,7 +95,7 @@ body {
         background-image: url(https://live.staticflickr.com/1779/42263456220_a2d79e5b49_b.jpg);
         background-size: cover;
     }
-    .sm-12{
+    .container{
         float:left;
         width:100%;
         padding:10px;
@@ -142,11 +143,13 @@ body {
         width: 500%;
         height: 100%;
         display: flex;
+        float:left;
       }
       
       .slide{
         width: 20%;
         transition: 0.6s;
+        float:left;
       }
       .slide img{
         width: 100%;
@@ -168,16 +171,27 @@ body {
       #r5:checked ~ .s1{
         margin-left: -80%;
       }
-      .sm-6{
-        float:left;
-        width:100%;
-        padding:60px;
-        background-color: darkcyan;
-      }
+      
       .row{
         width:100%;
         float:left;
       }
-      
-      
-      
+      .slidebox{
+        width: 100%;
+        height:1000px;
+        float:left;
+      }
+      .footerbox{
+        width:100%;
+        font-size: 20px;
+        float:left;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        text-align: center;
+      }
+      .socialmedia{
+        float:center;
+        margin:10px;
+      }
+      @media only screen and (max-width:450px){
+      }
