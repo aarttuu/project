@@ -27,3 +27,19 @@ input[type=text], select, textarea {
     background-color: #f2f2f2;
     padding: 40px;
   }
+
+  .footer {
+    background-color: darkgray;
+    color: white;
+    height: 300px;
+    position: relative;
+  }
+
+  .footer .footer-bottom {
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+  }
