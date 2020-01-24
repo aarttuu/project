@@ -253,3 +253,14 @@ body {
         padding: .7rem 1.3rem;
         line-height: 1.3rem;
       }
+
+      @media screen and(max-width:360px){
+        .slidebox{
+          width:20%;
+          float:left;
+          height:auto;
+        }
+        .jumbotron{
+          width:2000px;
+        }
+      }
