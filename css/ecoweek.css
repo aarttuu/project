@@ -234,5 +234,26 @@ body {
         padding: .7rem 1.3rem;
         line-height: 1.3rem;
       }
-    
+      @media screen and (max-width:470px){
+        .pääboxi{
+          width:960px;
+        }
+        .textbox{
+          width:750px;
+          font-size:40px;
+          padding:0;
+          margin-left:50px;
+          text-align:center;
+        }
+        .row{
+          width:1000px;
+        }
+        .videobox{
+          height:auto;
+          margin:10px;
+        }
+        .footer{
+          width:1000px;
+        }
+      }
     
