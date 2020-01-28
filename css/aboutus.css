@@ -1,6 +1,106 @@
+body {
+  background-color: black;
+  overflow-x: hidden;
+}
+
+.navbar{
+  background-color: transparent !important; 
+  width:100%;
+  float:left;
+}
+.navbar .navbar-brand{
+  color: white;
+  font-weight: bold;
+  font-size:25px;
+  float: left;
+
+}
+.navbar .navbar-nav{
+  margin: 0 auto;
+}
+.fas{
+color:white;
+}
+.fa-shopping-cart{
+color:rgb(0, 0, 0);
+margin:50px;
+float:left;
+align-content: center;
+}
+.navbar .nav-item a{
+  color:white !important;
+  font-size: 25px;
+  margin-left:200px;
+  font-weight: bold;
+}
+.navbar .nav-item a:hover{
+  background: rgba(0,0,0,0);
+color: #1c1c1d;
+box-shadow: inset 0 0 0 3px #c6c9c9;
+}
+
+.searchbar{
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 60px;
+  background-color: rgb(49, 49, 49);
+  border-radius: 30px;
+  padding: 10px;
+  }
+
+  .search_input{
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color:transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+  }
+
+  .searchbar:hover > .search_input{
+  padding: 0 10px;
+  width: 400px;
+  caret-color:red;
+  transition: width 0.4s linear;
+  }
+
+  .searchbar:hover > .search_icon{
+  background: white;
+  color: #206660;
+  }
+
+  .search_icon{
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color:white;
+  text-decoration:none;
+  }
+  .h-100{
+      float:right;
+  }
+  .paalogo{
+      float:left;
+  }
+  
+  .jumbotron{
+      width: 100%;
+      height:auto;
+      float:left;
+      background-color: black;
+      background-image: url(https://live.staticflickr.com/1779/42263456220_a2d79e5b49_b.jpg);
+      background-size: cover;
+  }
+
 .container {
     max-width: 1000px;
-    padding: 2px;
+    padding: 0px;
     color: white;
 }
 
@@ -68,7 +168,15 @@
     width: 100%;
     text-align: center;
     position: absolute;
-    bottom: 0px;
+    bottom: 0%;
     left: 0px;
-    padding-top: 20px;
+    padding-top: 15px;
   }
+
+  @media screen and (max-width:470px){
+    .pääbox{
+      width:960px;
+    }
+  }
+
+  

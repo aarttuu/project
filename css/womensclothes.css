@@ -188,3 +188,9 @@ body {
     left: 0px;
     padding-top: 20px;
   }
+  
+  @media screen and (max-width:470px){
+    .pääbox{
+      width:960px;
+    }
+  }
