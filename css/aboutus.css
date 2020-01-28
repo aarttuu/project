@@ -1,6 +1,13 @@
-body {
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+html, body {
   background-color: black;
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar{
@@ -120,9 +127,11 @@ box-shadow: inset 0 0 0 3px #c6c9c9;
   .footer {
     background-color: #303036;
     color: white;
-    height: 350px;
-    position: relative;
-  
+    height: 330px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 
   .footer .footer-content {
