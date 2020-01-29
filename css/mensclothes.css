@@ -36,6 +36,10 @@ body {
     padding: 10px;
     }
 
+    .fas{
+        color:white;
+    }
+
     .search_input{
     color: white;
     border: 0;
