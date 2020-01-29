@@ -40,6 +40,13 @@ body {
         color:white;
     }
 
+    .fa-shopping-cart{
+        color:rgb(0, 0, 0);
+        margin:50px;
+        float:left;
+        align-content: center;
+    }
+
     .search_input{
     color: white;
     border: 0;

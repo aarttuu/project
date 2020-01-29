@@ -27,6 +27,17 @@ body {
 	box-shadow: inset 0 0 0 3px #c6c9c9;
 }
 
+.fas{
+    color:white;
+}
+
+.fa-shopping-cart{
+    color:rgb(0, 0, 0);
+    margin:50px;
+    float:left;
+    align-content: center;
+}
+
 .searchbar{
     margin-bottom: auto;
     margin-top: auto;
@@ -89,19 +100,18 @@ body {
         height: auto;
         
     }
-
-
-    
+  
 .column {
     float: left;
     width: 33.33%;
     padding: 50px;
     text-align: center;
     width: [width of img];
-    color:white;
-    font-weight:bolder;
-    font-size:20px;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
   }
+
   .row::after {
     content: "";
     clear: both;
@@ -195,6 +205,5 @@ body {
   @media screen and (max-width:470px){
     .pääbox{
       width:960px;
-    }
-    
+    } 
   }
